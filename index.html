@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+
+   ASC Order <input value="asc" name="sortArray" type="radio" onchange="sortArray(event)"/>
+   DSC Order <input value="dsc" name="sortArray" type="radio" onchange="sortArray(event)"/>
+    <table border="10" cellpadding="15">
+      <tr id="tableRow"></tr>
+    </table>
+    <h4 id="selectedValue"></h4>
+    <button onclick="addDataInTable()" style="color: rgb(20, 20, 20); height: 40px; width:140px; background-color: whitesmoke;">
+        Add new Value
+      </button>
+    <button onclick="deleteFunc()" style="color: rgb(237, 97, 28); height: 40px; width:140px; background-color: whitesmoke;">
+      Delete Selected Item
+    </button>
+    <button onclick="evenNumbers()" style="color: rgb(38, 144, 89); height: 40px; width:140px; background-color: whitesmoke;">
+        Even Items
+      </button>
+    <button onclick="oddNumbers()" style="color: rgb(21, 25, 239); height: 40px; width:140px; background-color: whitesmoke;">
+       Odd Items
+    </button>
+    <button onclick="leftMove()" style="color: rgb(38, 144, 89); height: 40px; width:140px; background-color: whitesmoke;">
+      Move Left
+    </button>
+  <button onclick="rightMove()" style="color: rgb(21, 25, 239); height: 40px; width:140px; background-color: whitesmoke;">
+     Move Right
+  </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
