@@ -5,9 +5,9 @@ const allRecord = [1, 2, 34, 25, 100, 20, 10, 80, 50];
 //adding a new element to table
 
 const addDataInTable = () => {
-  let newNumber = +prompt("Enter an value from a user");
+  let newNumber = +prompt("Enter a value from a user");
   if (isNaN(newNumber)) {
-    alert("You have entered an wrong value inside the prompt.")
+    alert("You have entered a wrong value inside the prompt.")
   }
   else {
     allRecord.push(newNumber)
